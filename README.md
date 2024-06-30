@@ -24,9 +24,9 @@ Bu projenin çalışması için aşağıdaki yazılımların sisteminizde yükl�
 
 2. Web sunucusu yazılımınızı kullanarak, projeyi sunucunuzun kök dizinine yerleştirin.
 
-3. OpenWeatherMap API Key'inizi `config.js` dosyasına ekleyin:
-    ```javascript
-    const apiKey = 'YOUR_OPENWEATHERMAP_API_KEY';
+3. OpenWeatherMap API Key'inizi `api.php` dosyasına ekleyin:
+    ```php
+    $apiKey = 'YOUR_OPENWEATHERMAP_API_KEY';
     ```
 
 4. Web tarayıcınızda aşağıdaki URL'yi açın:
